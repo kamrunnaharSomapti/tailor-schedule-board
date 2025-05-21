@@ -14,8 +14,6 @@ import GanttForm from "./cases/GanttForm.svelte";
 import GanttSizes from "./cases/GanttSizes.svelte";
 import GanttMultiple from "./cases/GanttMultiple.svelte";
 import GanttPerformance from "./cases/GanttPerformance.svelte";
-
-
 import GanttTooltips from "./cases/GanttTooltips.svelte";
 import GanttToolbar from "./cases/GanttToolbar.svelte";
 import GanttToolbarCustom from "./cases/GanttToolbarCustom.svelte";
@@ -40,9 +38,14 @@ import GanttCustomSort from "./cases/GanttCustomSort.svelte";
 import GanttSummariesProgress from "./cases/GanttSummariesProgress.svelte";
 import GanttSummariesNoDrag from "./cases/GanttSummariesNoDrag.svelte";
 import GanttSummariesConvert from "./cases/GanttSummariesConvert.svelte";
+import MyGridTest from "../demos/cases/MyGridTest.svelte"
 
 export const links = [
 	["/base/:skin", "Basic Gantt", BasicInit],
+
+	["/my-grid-test/:skin", "MyGridTest",MyGridTest],
+	
+	 
 
 	["/sizes/:skin", "Scale / cell sizes", GanttSizes],
 	["/cell-borders/:skin", "Chart cell borders", ChartCellBorders],

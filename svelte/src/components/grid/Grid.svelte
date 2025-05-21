@@ -379,6 +379,7 @@
 		overflow-y: hidden;
 		height: 100%;
 		box-sizing: content-box;
+		border: 3px solid rgb(150, 153, 101);
 	}
 
 	/*table*/

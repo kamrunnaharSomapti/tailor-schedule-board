@@ -35,6 +35,7 @@
 	.wx-cell {
 		display: flex;
 		box-sizing: border-box;
+		border: 3px solid rgb(116, 25, 89);
 	}
 
 	.wx-row {
